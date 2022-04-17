@@ -179,29 +179,29 @@ class AccountOperations extends Component {
                 {
                     id:"innerAccountTotal",
                     text:"Cuenta Total",
-                    value:formatMoney("13859.08"),
+                    value:formatMoney("2000.00"),
                 },
                 {
                     id:"innerAccountOrlando",
                     text:"Cuenta Orlando",
-                    value:formatMoney("12374.08"),
+                    value:formatMoney("1000.08"),
                 },
                 {
                     id:"innerAccountFelipe",
                     text:"Cuenta Felipe",
-                    value:formatMoney("1485"),
+                    value:formatMoney("5555"),
                 }
             ],
             bofaAccount:[
                 {
                     id:"bofaAccountCC",
                     text:"Cuenta Corriente",
-                    value:formatMoney("13685.70"),
+                    value:formatMoney("1000.00"),
                 },
                 {
                     id:"bofaAccountCA",
                     text:"Cuenta Ahorro",
-                    value:formatMoney("173.38"),
+                    value:formatMoney("1000.00"),
                 }
             ],
             accordConfig:{
@@ -210,15 +210,15 @@ class AccountOperations extends Component {
                 dataList:[
                     {
                         title:"Monto Inicial Orlando",
-                        value:formatMoney("4776.68"),
+                        value:formatMoney("2222.00"),
                     },
                     {
                         title:"Monto Inicial Felipe",
-                        value:formatMoney("1402.00"),
+                        value:formatMoney("1333.00"),
                     },
                     {
                         title:"Total Orlando Canada",
-                        value:formatMoney("17306.42","CAD"),
+                        value:formatMoney("1500.42","CAD"),
                     },
                     
                 ],
