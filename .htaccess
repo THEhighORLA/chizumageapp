@@ -5,15 +5,15 @@
 RewriteEngine on
 # Cambiar chizumage.com por su nombre de dominio
 RewriteCond %{HTTP_HOST} ^(www.)?chizumage.com$
-# Cambiar 'public' por el nombre del subdirectorio que quiere usar
-RewriteCond %{REQUEST_URI} !^/public/
+# Cambiar 'build' por el nombre del subdirectorio que quiere usar
+RewriteCond %{REQUEST_URI} !^/build/
 # No cambiar estas lineas.
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-# Cambiar 'public' por el nombre del subdirectorio que quiere usar
-RewriteRule ^(.*)$ /public/$1
+# Cambiar 'build' por el nombre del subdirectorio que quiere usar
+RewriteRule ^(.*)$ /build/$1
 # Cambiar chizumage.com por su nombre de dominio
-# Cambiar 'public' por el nombre del subdirectorio que quiere usar
+# Cambiar 'build' por el nombre del subdirectorio que quiere usar
 # followed by / then the main file for your site, index.php, index.html, etc.
 RewriteCond %{HTTP_HOST} ^(www.)?chizumage.com$
-RewriteRule ^(/)?$ public/index.html [L]
+RewriteRule ^(/)?$ build/index.html [L]

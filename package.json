@@ -1,5 +1,6 @@
 {
   "name": "chizumageapp",
+  "homepage": "http://chizumage.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
