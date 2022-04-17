@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/izol92nrt5qb/public_html/
+    - /bin/rm -Rf $DEPLOYPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp -R public/ $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH

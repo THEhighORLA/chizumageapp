@@ -1,0 +1,256 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  font-family: "Roboto";
+}
+.bold{
+  font-weight: bold;
+}
+
+/*Navbar principal*/
+nav.navbar-expand {
+  background-color: #E4E4E4;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  height: 65px;
+}
+
+nav .nav-brand{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+nav .nav-item {
+  height: 100%;
+  padding-top: 10px;
+  
+}
+
+nav .nav-item a,nav .nav-item a:hover,nav .nav-item a:focus{
+  color: #424242;
+  text-decoration: none;
+}
+nav .dropdown-item:active{
+  background-color: inherit;
+}
+nav .nav-active, nav .nav-active:focus,nav .nav-active, nav .nav-active:hover{
+  background-color: #15dc00;
+  font-weight: bold;
+  color: #424242;
+}
+
+nav .dropdown-menu{
+  padding: 0px;
+}
+/*User Profile*/
+.nav-profile-dropdown{
+  cursor: pointer;
+}
+.nav-profile-dropdown a{
+  padding: 0px;
+  height: 50px;
+  width: 270px;
+} 
+.nav-profile{
+  height: 50px;
+  width: 270px;
+}
+.nav-profile-dropdown .nav-profile .nav-profile-img, .nav-profile-dropdown .nav-profile-img h3{
+  float: left;
+}
+.nav-profile-dropdown .nav-profile h3{
+  padding-top: 7px;
+}
+.nav-profile-img {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 25px;
+}
+
+.nav-profile-img .thumbnail-image{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav-profile-dropdown .dropdown-toggle::after {
+  display: none; 
+}
+
+.offcanvas a{
+  color: #424242;
+}
+.offcanvas-footer{
+  padding-bottom: 15px;
+}
+
+.main-body{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.hide-item{
+  display: none;
+}
+
+button:disabled{
+  opacity: 0.2!important;
+  background-color: #444444!important
+}
+
+/*Main Title*/
+.title{
+  height: 150px;
+  background-color: #15dc00;
+}
+.title-text{
+  height: 100%;
+  padding-top: 40px;
+}
+
+/*Alerts*/
+.custom-alert{
+  margin-top: 1rem;
+}
+.alert-heading svg{
+  font-size: 35px;
+  margin-right: 15px;
+  padding-top: 15px;
+}
+/* Table */
+ .operations-table{
+  margin-top: 1rem;
+}
+.react-bootstrap-table-pagination div:first-child{
+  width: 10%;
+  align-items: center;
+  text-align: center;
+}
+
+.react-bootstrap-table-pagination .btn-secondary{
+  float: left;
+  width: 100%;
+  position: relative;
+  color: #424242;
+  background-color: #8FF785;
+  border-color: #8FF785;
+}
+.react-bootstrap-table-pagination .btn-secondary:focus,.react-bootstrap-table-pagination .btn-secondary:hover{
+  color: #424242;
+  background-color: #15DC00;
+  border-color: #15DC00;
+}
+
+.dropdown-menu .dropdown-item:hover,.dropdown-menu .dropdown-item:focus{
+  background-color: #8FF785;
+}
+.dropdown-menu a{
+  color: #424242;
+  text-align: center;
+  align-content: center;
+}
+
+.react-bootstrap-table-pagination-list{
+  width: 90%; 
+} 
+.pagination .page-item.active .page-link{
+  background-color: #8FF785;
+  border-color: #8FF785;
+  color: #424242;
+}
+
+.pagination .page-item.active .page-link:hover,.pagination .page-item.active .page-link:focus{
+  background-color: #15dc00;
+  border-color: #15dc00;
+  color: #424242;
+}
+
+/*Cards*/
+.operation-card-container{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 1rem;
+}
+.operation-card-container .operation-card{
+  margin-left: 15px;
+  padding: 0px;
+}
+.operation-card-container .card-header{
+  background-color: #8FF785 !important;
+  color: #424242!important;
+}
+
+/*Accordion*/
+.operation-extrainfo{
+  margin-top: 1rem;
+}
+.accordion-button:not(.collapse){
+  color: #424242;
+  background-color: #8FF785;
+}
+
+/*Formularios*/
+.operation-form{
+  margin-top: 1rem;
+}
+.form-check label{
+  font-weight: bold;
+  font-size: 24px;
+}
+/*Agrupacion de botones*/
+.btn-group{
+  margin-top: 1rem;
+  display: block;
+  width: 100%;
+  float: left;
+}
+.btn-group button{
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  width: 150px;
+}
+/*Icons*/
+
+.fa-circle-check{
+  color: #00C851;
+}
+
+.fa-circle-exclamation{
+  color: #ff4444;
+}
+
